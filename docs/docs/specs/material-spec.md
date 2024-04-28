@@ -631,7 +631,7 @@ component
 | snippets          | 内容为组件不同状态下的低代码 schema (可以有多个)，用户从组件面板拖入组件到设计器时会向页面 schema 中插入 snippets 中定义的组件低代码 schema | Object[]                    | 否     |
 | group             | 用于描述当前组件位于组件面板的哪个 tab  | String                    | 否     |
 | category          | 用于描述组件位于组件面板同一 tab 的哪个区域        | String                    | 否     |
-| priority          | 用于描述组件在同一 category 中的排序       | String                    | 否     |
+| priority          | 用于描述组件在同一 category 中的排序       | Number                    | 否     |
 
 
 ##### 2.2.2.3 组件属性信息 props (A)
